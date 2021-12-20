@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://tokenterminal.com">
     <img src="https://github.com/token-terminal/tt-analytics/raw/main/frontend/public/logo.png" height="128">
-    <h1 align="center">Token Terminal</h1>
+    <h2 align="center">Token Terminal</h2>
   </a>
 </p>
 
@@ -21,6 +21,8 @@ You will deploy subgraphs on The Graph’s [hosted service](https://thegraph.com
 
 ### Install npm
 
+#### Installing on Linux
+
 One possibility to do this is using the Node Version Manager:
 
 ```bash
@@ -38,6 +40,33 @@ $ nvm install v17.2.0
 $ node --version
 v17.2.0
 $ npm --version
+8.1.4
+```
+
+#### Installing on macOS
+
+One possibility to do this is using Homebrew. To install Homebrew:
+
+```bash
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# Confirm installation worked
+$ brew -v
+
+# Update
+$ brew update
+```
+
+Now you can install Node via Homebrew:
+
+```bash
+$ brew install node
+
+# Confirm installation worked
+$ node -v
+v17.2.0
+
+$ npm -v
 8.1.4
 ```
 
