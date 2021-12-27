@@ -19,6 +19,9 @@ type Market @entity {
   "The part of total fees that goes to the protocol"
   totalProtocolFeesGenerated: BigDecimal!
 
+  "Reserves in the market"
+  totalReserves: BigDecimal!
+
   "Borrows in the market"
   totalBorrows: BigDecimal!
 
